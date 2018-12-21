@@ -1,0 +1,429 @@
+.head{
+	width: 100%;
+	height: 40px;
+	background: #333;
+}
+.head-con{
+	width: 1226px;
+	height: 100%;
+	background: #333;
+	margin: 0px auto;
+}
+.head-left{
+	float: left;
+	height: 100%;
+}
+.head-left .text{
+	float: left;
+	height: 100%;
+	line-height: 40px;
+	color: #b0b0b0;
+	font-size: 14px;
+}
+.head-left .line{
+	float: left;
+	height: 100%;
+	line-height: 40px;
+	color: #3e3e3e;
+	margin: 0px 7px;
+}
+.head-right{
+	float: right;
+	height: 100%;
+}
+
+.head-right .a {
+	float:left;
+	margin-right: 25px;
+}
+.a .text{
+	float: left;
+	height: 100%;
+	line-height: 40px;
+	color: #b0b0b0;
+	font-size: 14px;
+}
+.a .line{
+	float: left;
+	height: 100%;
+	line-height:40px;
+	color: #3e3e3e;
+	margin: 0px 7px;
+}
+.head-right .b{
+	float: right;
+	height: 100%;
+	line-height: 40px;
+	color:#b0b0b0;
+	background: #424242;
+	text-align: center;
+	font-size: 14px;
+	width: 100px;
+}
+.top{
+	width: 100%;
+	height: 100px;
+	background: #fff;
+}
+.top-con{
+	width: 1226px;
+	height: 100%;
+	background: #fff;
+	margin: 0px auto;
+}
+.top img{
+	float: left;
+	margin-top: 20px;
+}
+.top .center{
+	float: left;
+	height: 100%;
+	margin-left: 245px;
+}
+.center .text{
+	float: left;
+	height: 100%;
+	line-height: 100px;
+	color: #333;
+	font-size: 14px;
+	margin-right: 25px;
+}
+.top-con .box{
+	width: 296px;
+	height: 50px;
+	float: right;
+	border: 1px solid #e0e0e0;
+	margin-top: 25px;
+}
+.box img{
+	float: right;
+	margin: 0;
+}
+.box .box1{
+	width: 244px;
+	height: 48px;
+	float: left;
+	border-right: 1px solid #e0e0e0;
+}
+.box input{
+	width: 233px;
+	height: 100%;
+	border: none;
+	margin-left: 10px;
+	outline: none;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner{
+	width: 1226px;
+	height: 460px;
+	background: #000000;
+	margin: 0 auto;
+	position:relative;
+	
+}
+.banner .banner-one{
+	width:1226px;
+	height: 460px;
+	background: red;
+}
+.banner img{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+}
+.banner .banner-tow{
+	width: 234px;
+	height: 460px;
+	background: rgba(0,0,0,0.6);
+	position:absolute;
+	top: 0;
+	bottom: 0；
+}
+.banner .banner-tow>ul>{
+	width: 234px;
+	height: 42px;
+	color: red;
+    padding: 20px 0px;
+    line-height: 42px;
+}
+
+
+
+
+	
+
+
+
+	
+
+/* banner结束 */
+/* 闪购开始 */
+.shan{
+	width: 1226px;
+	height: 378px;
+	margin: 0px auto;
+
+}
+.shan .shan-top{
+	width: 1226px;
+	height: 58px;
+}
+.shan .shan-top-zuo{
+	width: 200px;
+	height: 58px;
+	float: left;
+	font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.shan .shan-top-you{
+	width: 100px;
+	height: 58px;
+	float: right;
+
+}
+.shan .shan-top-youli{
+	width: 71px;
+	height: 24px;
+	float: right;
+	margin-top: 30px;
+	border: 1px solid #e9e9e9;
+	box-sizing: border-box;
+
+}
+	
+.shan .box-zuo{
+	width: 34px;
+	height: 24px;
+	float:left ;
+	line-height: 24px;
+	text-align: center;
+	border-right: 1px solid #e9e9e9;
+	
+
+
+}
+.shan .box-you{
+	width: 34px;
+	height: 24px;
+    float:left ;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+
+}
+	
+.shan .shan-xia{
+	width: 1226px;
+	height: 320px;
+	background: yellow;
+
+}
+.shan .tu1{
+	width: 200px;
+	height: 320px;
+	background: #f1eded;
+	float: left;
+}
+.shan .tu2{
+	width: calc(234px * 4 + 14px * 3);
+	height: 100%;
+	float: right;
+
+}
+.shan .tu2 li{
+	width: 234px;
+	height: 100%;
+	background: rgba(0,0,0,0.02);
+	margin-left: 14px;
+	float: left;
+}
+.shan .tu2 .xia-box{
+	margin-left: 0;
+}
+	
+/* 闪购结束 */
+/* 家电开始 */
+.jiadian{
+	width: 1226px;
+	height: 686px;
+	margin: 0px auto;
+}
+.jiandian-top{
+	width: 100%;
+	height:58px;
+}
+.jiandian-top .top-left{
+	width:200px;
+	height: 100%;
+	float: left;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+	
+}
+.jiandian-top .top-right{
+	height: 100%;
+	background: #333333;
+	float: right;
+}
+.jiandian-top .top-right li{
+	float: left;
+	font-size: 14px;
+	color: #424242;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.jiandian-xia{
+	width: 1226px;
+	height: 628px;
+	background: #000000;
+}
+.jiandian-xia .jiandian-xia-left{
+	width: 234px;
+	height: 628px;
+	background: orange;
+	float: left;
+}
+.jiandian-xia .jiandian-xia-right .left-img{
+	width: 100%;
+	height: 300px;
+	background: blue;
+	float: right;
+	margin-top: 14px;
+}
+
+.jiandian-xia .jiandian-xia-right{
+	width: 918px;
+	height:100%;
+	background: yellow;
+	float: right;
+}
+
+
+/* 家电结束 */
+
+/* 为你推荐开始 */
+.tui{
+	width: 1226px;
+	height: 378px;
+	margin: 0px auto;
+}
+.tui .tui-top{
+	width: 1226px;
+	height: 58px;
+}
+.tui .tui-top-zuo{
+	width: 200px;
+	height: 58px;
+	float: left;
+	font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.tui .tui-top-you{
+	width: 100px;
+	height: 58px;
+	float: right;
+}
+.tui .tui-top-youli{
+	width: 71px;
+	height: 24px;
+	float: right;
+	margin-top: 30px;
+	border: 1px solid #e9e9e9;
+	box-sizing: border-box;
+
+}	
+.tui .box-zuo{
+	width: 34px;
+	height: 24px;
+	float:left ;
+	line-height: 24px;
+	text-align: center;
+	border-right: 1px solid #e9e9e9;
+}
+.tui .box-you{
+	width: 34px;
+	height: 24px;
+    float:left ;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+
+}
+.tui .tui-xia{
+	width: 1226px;
+	height: 320px;
+	background: #000000;
+}
+
+/* 为你推荐结束 */
+/* 热门产品开始 */
+.remen{
+	width: 1226px;
+	height: 378px;
+	margin: 0px auto;
+}
+.remen .remen-top{
+	width: 1226px;
+	height: 58px;
+}
+.remen .remen-top-zuo{
+	width: 200px;
+	height: 58px;
+	float: left;
+	font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.remen .remen-top-you{
+	width: 100px;
+	height: 58px;
+	float: right;
+}
+.remen .remen-top-youli{
+	width: 71px;
+	height: 24px;
+	float: right;
+	margin-top: 30px;
+	border: 1px solid #e9e9e9;
+	box-sizing: border-box;
+
+}	
+.remen .box-zuo{
+	width: 34px;
+	height: 24px;
+	float:left ;
+	line-height: 24px;
+	text-align: center;
+	border-right: 1px solid #e9e9e9;
+}
+.remen .box-you{
+	width: 34px;
+	height: 24px;
+    float:left ;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+
+}
+.remen .remen-xia{
+	width: 1226px;
+	height: 320px;
+	background: red;
+}
+/* 热门产品结束 */
+
+
+	
+
+
+
+
+	
