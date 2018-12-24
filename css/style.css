@@ -147,21 +147,12 @@
     padding: 20px 0px;
     line-height: 42px;
 }
-
-
-
-
 	
-
-
-
-	
-
 /* banner结束 */
 /* 闪购开始 */
 .shan{
 	width: 1226px;
-	height: 378px;
+	height: 398px;
 	margin: 0px auto;
 
 }
@@ -201,9 +192,7 @@
 	line-height: 24px;
 	text-align: center;
 	border-right: 1px solid #e9e9e9;
-	
-
-
+	color: #e9e9e9;
 }
 .shan .box-you{
 	width: 34px;
@@ -211,40 +200,126 @@
     float:left ;
 	line-height: 24px;
 	text-align: center;
-	color: #000;
 
 }
 	
 .shan .shan-xia{
 	width: 1226px;
-	height: 320px;
-	background: yellow;
+	height: 340px;
 
 }
 .shan .tu1{
-	width: 200px;
-	height: 320px;
+	width: 234px;
+	height: 338px;
 	background: #f1eded;
+	margin: 0 14px 0 0;
 	float: left;
+	text-align: center;
+	border-top:2px solid red;
 }
+.shan .tu1 .shidian{
+	font-size: 21px;
+    color: #ef3a3b;
+	margin-top: 54px;
+	
+}
+.shan .tu1 img{
+	margin:25px auto;
+}
+.shan .tu1 .wenzi{
+	color: rgba(0,0,0,0.54);
+    font-size: 15px;
+}
+.shan .tu1 .linlin{
+	width: 168px;
+	height: 46px;
+    margin: 28px auto 0;
+}
+.shan .tu1 .linlin .shuzi{
+	width: 46px;
+    height: 46px;
+    background: #605751;
+    color: #fff;
+    font-size: 24px;
+    line-height: 46px;
+    float: left;
+}
+.shan .tu1 .linlin .maohao{
+width: 15px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    color: #605751;
+    font-size: 28px;
+}
+
+
 .shan .tu2{
 	width: calc(234px * 4 + 14px * 3);
 	height: 100%;
 	float: right;
-
+    background:white;
+}
+.shan .tu2 .clear{
+	margin-left:0;
 }
 .shan .tu2 li{
 	width: 234px;
-	height: 100%;
-	background: rgba(0,0,0,0.02);
+	height: 338px;
+	background: #fafafa;
 	margin-left: 14px;
 	float: left;
+	border-top: 2px solid yellow;
+	text-align: center;
 }
-.shan .tu2 .xia-box{
-	margin-left: 0;
+
+li .time{
+	width: 65px;
+	height: 20px;
+	background: red;
+	margin: 0 auto;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+.shan .tu2 li img{
+	width: 160px;
+	height: 160px;
+	margin: 20px auto;
+	text-align: center;
+}
+.tu2 .diyihan{
+	font-size: 16px;
+	color: #5d5d5d;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+	margin:0 20px 3px;
+}
+.tu2 .dierhan{
+    font-size: 14px;
+    color: #bcbcbc;
+    margin-bottom: 20px;
+}
+.tu2 .disanhan1{
+	font-size: 16px;
+	color: #fa7927;
+	margin-right: 8px;
+}
+.tu2 .disanhan2{
+	font-size: 16px;
+	color: #bcbcbc;
+	
 }
 	
+
+	
 /* 闪购结束 */
+main{
+	width: 100%;
+	background:#f5f5f5 ;
+	margin-top: 22px;
+}
 /* 家电开始 */
 .jiadian{
 	width: 1226px;
@@ -280,18 +355,15 @@
 .jiandian-xia{
 	width: 1226px;
 	height: 628px;
-	background: #000000;
 }
 .jiandian-xia .jiandian-xia-left{
 	width: 234px;
 	height: 628px;
-	background: orange;
 	float: left;
 }
 .jiandian-xia .jiandian-xia-right .left-img{
 	width: 100%;
 	height: 300px;
-	background: blue;
 	float: right;
 	margin-top: 14px;
 }
@@ -299,17 +371,14 @@
 .jiandian-xia .jiandian-xia-right{
 	width: 918px;
 	height:100%;
-	background: yellow;
 	float: right;
 }
-
-
 /* 家电结束 */
 
 /* 为你推荐开始 */
 .tui{
 	width: 1226px;
-	height: 378px;
+	height: 398px;
 	margin: 0px auto;
 }
 .tui .tui-top{
@@ -339,86 +408,146 @@
 	box-sizing: border-box;
 
 }	
-.tui .box-zuo{
+.tui .box-zuo1{
 	width: 34px;
 	height: 24px;
 	float:left ;
 	line-height: 24px;
 	text-align: center;
 	border-right: 1px solid #e9e9e9;
+	color:#e9e9e9;
 }
-.tui .box-you{
+.tui .box-you1{
 	width: 34px;
 	height: 24px;
     float:left ;
 	line-height: 24px;
 	text-align: center;
-	color: #000;
 
 }
 .tui .tui-xia{
+	width: 3678px;
+    height: 320px;
+}
+.tui .tui-xia-limian{
 	width: 1226px;
 	height: 320px;
-	background: #000000;
+	background: #f1eded;
+	overflow: hidden;
+}
+.tui-xia li{
+	width: 234px;
+    height: 320px;
+    float: left;
+    margin-left: 14px;
+    text-align: center;
+	background: white;
+}
+.tui-xia .xiao{
+	margin-left:0;
+	}
+.tui li img{
+	width: 140px;
+    height: 140px;
+	margin: 30px 0;
+	
+}
+.tui-xia-limian .yundonxie{
+	padding: 0px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #5d5d5d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+
+}
+.tui-xia-limian  .jiaqian{
+	font-size: 16px;
+    color: #fa7927;
+}
+.tui-xia-limian  .haopin{
+	font-size: 14px;
+    color: #bcbcbc;
+    margin-top: 10px;
 }
 
+
 /* 为你推荐结束 */
-/* 热门产品开始 */
-.remen{
+/* <!-- 热评产品开始 --> */
+.repin{
 	width: 1226px;
-	height: 378px;
-	margin: 0px auto;
+	height: 473px;
+	margin: 0 auto;
 }
-.remen .remen-top{
+.repin .repin-top{
 	width: 1226px;
 	height: 58px;
 }
-.remen .remen-top-zuo{
-	width: 200px;
-	height: 58px;
-	float: left;
-	font-size: 22px;
+.repin .repin-wenzi{
+	margin: 0;
+    font-size: 22px;
     font-weight: 200;
     line-height: 58px;
     color: #333;
+	float: left;
 }
-.remen .remen-top-you{
-	width: 100px;
-	height: 58px;
-	float: right;
-}
-.remen .remen-top-youli{
-	width: 71px;
-	height: 24px;
-	float: right;
-	margin-top: 30px;
-	border: 1px solid #e9e9e9;
-	box-sizing: border-box;
-
-}	
-.remen .box-zuo{
-	width: 34px;
-	height: 24px;
-	float:left ;
-	line-height: 24px;
-	text-align: center;
-	border-right: 1px solid #e9e9e9;
-}
-.remen .box-you{
-	width: 34px;
-	height: 24px;
-    float:left ;
-	line-height: 24px;
-	text-align: center;
-	color: #000;
-
-}
-.remen .remen-xia{
+.repin .repin-xia{
 	width: 1226px;
-	height: 320px;
-	background: red;
+	height: calc(100% - 58px);
 }
-/* 热门产品结束 */
+.repin .repin-xia .one1{
+    margin-left: 0px;
+}
+.repin-xia li{
+	float: left;
+	width: 296px;
+	height: 415px;
+	margin-left: 14px;
+	text-align: center;
+}
+.repin li img{
+	width: 296px;
+	height: 220px;
+	margin: 0 0 28px;
+}
+.repin-xia .repinduanluo{
+	height: 72px;
+    margin: 0 28px 22px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    overflow: hidden;
+	color: #000000;
+}
+.repin-xia .laiziyu{
+	font-size:12px ;
+	height:18px ;
+	color:#b0b0b0 ;
+	margin: 0 28px 8px;
+	text-align: left;
+}
+.repin-xia-limian .repin-disanhan{
+    text-align: left;
+	float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #5d5d5d;
+}
+.repin-xia-limian .fuhao{
+	height: 14px;
+    margin: 0px 7px 0 -120px;
+    color: #e2e2e2;
+
+
+}
+.repin-xia-limian .repin-jiaqian{
+	font-size: 14px;
+    color: #fa7927;
+
+
+}
 
 
 	
